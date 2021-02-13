@@ -2,7 +2,7 @@
 
 ## 滑动效果的导航菜单
 
-![image](https://github.com/dosboy0716/sliding-nav/blob/main/sliding_nav.gif)
+![image](http://www.xiaoniushu.com/static/github/sliding_nav.gif)
 
 
 # Usage
