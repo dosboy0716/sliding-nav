@@ -12,8 +12,7 @@ Usage
     <li class="active">menu-item 1</li>
     <li>menu-item 2</li>
     <li>menu-item 3</li>
-<ul>
-                    
+<ul>     
 
 使用方法
 1、在</body>标记结束前，引用sliding-nav.js文件

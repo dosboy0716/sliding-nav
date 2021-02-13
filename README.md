@@ -5,9 +5,9 @@
 
 # Usage
 1. Include file **sliding-nav.js** before tag</body> in a HTML file.
-
+```
 <script src="/path/to/sliding-nav.js"></script>
-
+```
 2. Use class name **sliding-nav** in a navigation bar element，and use **.active** for a selected menu item.
 3. Use following attributes to change its color,radius and height:**sn-color, sn-radius,sn-height**. (if no these attributes, default settings following will be used)
 
