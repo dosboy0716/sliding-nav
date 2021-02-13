@@ -2,7 +2,7 @@
 
 ## 滑动效果的导航菜单
 
-![滑动效果](sliding_nav.gif)
+![image](./sliding_nav.gif)
 
 
 # Usage
