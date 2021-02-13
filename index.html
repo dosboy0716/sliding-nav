@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> Sliding Nav Demo Page</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <style type="text/css">
+        var {
+            color: #F00!important;
+        }
+        
+        .nav-item {
+            padding: 20px;
+        }
+        
+        nav a {
+            color: #FFF;
+        }
+        
+        nav a:hover {
+            color: #FFF;
+            text-decoration: none;
+        }
+        
+        nav {
+            background-color: #002d73;
+            color: #FFF!important;
+            display: flex;
+        }
+        
+        .db-logo {
+            color: #FFF;
+            font-size: 26px;
+            padding: 18px 15px 18px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="row  justify-content-between">
+                <div class="db-logo col-md-4">
+                    Sliding Nav
+                    <span>滑动导航</span>
+                </div>
+                <div class="col-md-8">
+                    <ul class="nav sliding-nav" sn-color="#FFF">
+                        <li class="nav-item">
+                            <a href="javascript:void(0)">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0)">About US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0)">Production Series</a>
+                        </li>
+                    </ul>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div id="home" class="jumbotron">
+            <h2>Usage</h2>
+            <p>
+
+                1. Include file <var>sliding-nav.js</var> before tag&lt;/body&gt; in a HTML file.
+                <pre><code>&lt;script src="/path/to/sliding-nav.js"&gt;&lt;/script&gt;</code></pre>
+                <br/>2. Use class name <var>sliding-nav</var> in a navigation bar element，and use <var>.active</var> for a selected menu item.<br/> 3. Use following attributes to change its color,radius and height:<var>sn-color</var>, <var>sn-radius</var>,<var>sn-height</var>.
+                (if no these attributes, default settings following will be used)
+
+                <pre><code>
+&lt;ul class="nav <span style="color:#F00">sliding-nav</span>" <span style="color:#F00">sn-color="#F00"</span> <span style="color:#F00">sn-radius="0px"</span> <span style="color:#F00">sn-height="3px"</span>&gt;
+    &lt;li class="<span style="color:#F00">active</span>"&gt;menu-item 1&lt;/li&gt;
+    &lt;li&gt;menu-item 2&lt;/li&gt;
+    &lt;li&gt;menu-item 3&lt;/li&gt;
+&lt;ul&gt;
+                    </code>
+                </pre> Sliding Navigation Bar By Dosboy(yan,ZHANG)<br/> Mailto: 26959368@qq.com <br/> --2020.02.06
+
+
+
+            </p>
+        </div>
+
+
+        <div id="home" class="jumbotron">
+            <h2>使用方法</h2>
+            <p class="lead">
+
+                1、在&lt;/body&gt;标记结束前，引用sliding-nav.js文件 <br/>2、在需要滑动条的菜单容器上加类名 sliding-nav，当前项使用类名：active <br/> 3、使用属性来定定外观:sn-color="颜色" sn-radius="圆度" sn-height="高度"
+                <pre><code>
+&lt;script src="/path/to/sliding-nav.js"&gt;&lt;/script&gt;
+&lt;ul class="nav <span style="color:#F00">sliding-nav</span>" <span style="color:#F00">sn-color="#F00"</span> <span style="color:#F00">sn-radius="0px"</span> <span style="color:#F00">sn-height="3px"</span>&gt;
+    &lt;li class="<span style="color:#F00">active</span>"&gt;菜单项1&lt;/li&gt;
+    &lt;li&gt;菜单项2&lt;/li&gt;
+    &lt;li&gt;菜单项3&lt;/li&gt;
+&lt;ul&gt;
+                    </code>
+                </pre> Sliding Navigation Bar By Dosboy(yan,ZHANG)<br/> Mailto: 26959368@qq.com <br/> --2020.02.06
+
+
+
+            </p>
+        </div>
+
+    </div>
+
+
+    <script src="./sliding-nav.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-LCPyFKQyML7mqtS+4XytolfqyqSlcbB3bvDuH9vX2sdQMxRonb/M3b9EmhCNNNrV" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
