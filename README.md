@@ -2,6 +2,8 @@
 
 ## 滑动效果的导航菜单
 
+![滑动效果](sliding_nav.gif)
+
 
 # Usage
 1. Include file **sliding-nav.js** before tag</body> in a HTML file.
