@@ -139,6 +139,7 @@ function init() {
 
             //移出导航就恢复默认
             hover(navs[i], null, function(e, elem) {
+                indi.style.width = selected.offsetWidth + "px";
                 indi.style.left = selected.offsetLeft + "px";
             });
 
